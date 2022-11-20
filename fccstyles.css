@@ -5,7 +5,7 @@ body {
     background-color: #faf9f6;
     color: black;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 15px;
   }
 
 fieldset{
@@ -43,14 +43,8 @@ select{
     display: block;
     margin: 10px 0 0 0;
     width: 101%;
-    min-height: 2.5em;
+    min-height: 3em;
 }
-
-/* input[type="text"],input[type="number"], input[type="email"]{
-    margin: 10px 0 0 0;
-    width: 100%;
-    min-height: 2em;
-} */
 
 textarea{
     display:block;
@@ -65,10 +59,16 @@ textarea{
 input, textarea, select{
     margin: 10px 0 0 0;
     width: 100%;
-
+    min-height: 2em;
 }
 
 .inline{
     width:unset;
-
+    margin: 0 1em 0 0;
+    vertical-align: middle;
 }
+
+/* input[type="radio"], input[type="checkbox"] {
+    margin-top: -1px;
+    vertical-align: middle;
+  } */
