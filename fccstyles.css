@@ -46,11 +46,11 @@ select{
     min-height: 2.5em;
 }
 
-input[type="text"],input[type="number"], input[type="email"]{
+/* input[type="text"],input[type="number"], input[type="email"]{
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
-}
+} */
 
 textarea{
     display:block;
@@ -62,3 +62,13 @@ textarea{
     resize: vertical;
 }
 
+input, textarea, select{
+    margin: 10px 0 0 0;
+    width: 100%;
+
+}
+
+.inline{
+    width:unset;
+
+}
