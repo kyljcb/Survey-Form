@@ -2,15 +2,17 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #faf9f6;
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
     color: black;
     font-family: sans-serif;
     font-size: 15px;
+    
   }
 
 fieldset{
     margin: 0 10rem;
     padding: 2rem 3rem;
+    background-image: url('https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?w=2000');
 }
 
 label {
@@ -23,9 +25,11 @@ h1,p{
     margin-top: 40px;
     margin-bottom: 10px
 }
+
 h1{
     font-family: sans-serif
 }
+
 p{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -33,11 +37,19 @@ p{
     margin-top: 0;
     margin-bottom: 20px;
 }
+
 form {
     width: 60rem;
     margin: 0 auto;
     padding-bottom: 2em;
+    
   }
+
+input, textarea, select{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
 
 select{
     display: block;
@@ -56,19 +68,8 @@ textarea{
     resize: vertical;
 }
 
-input, textarea, select{
-    margin: 10px 0 0 0;
-    width: 100%;
-    min-height: 2em;
-}
-
 .inline{
     width:unset;
     margin: 0 1em 0 0;
     vertical-align: middle;
 }
-
-/* input[type="radio"], input[type="checkbox"] {
-    margin-top: -1px;
-    vertical-align: middle;
-  } */
