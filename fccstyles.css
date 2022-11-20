@@ -4,12 +4,12 @@ body {
     margin: 0;
     background-color: #faf9f6;
     color: black;
-    font-family: Tahoma;
+    font-family: sans-serif;
     font-size: 20px;
   }
 
 fieldset{
-    margin: 0 10rem 0  10rem;
+    margin: 0 10rem;
     padding: 2rem 3rem;
 }
 
@@ -20,6 +20,18 @@ label {
 
 h1,p{
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px
+}
+h1{
+    font-family: sans-serif
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 form {
     width: 60rem;
@@ -27,7 +39,14 @@ form {
     padding-bottom: 2em;
   }
 
-input[type="text"],input[type="number"],select{
+select{
+    display: block;
+    margin: 10px 0 0 0;
+    width: 101%;
+    min-height: 2.5em;
+}
+
+input[type="text"],input[type="number"], input[type="email"]{
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
@@ -36,12 +55,10 @@ input[type="text"],input[type="number"],select{
 textarea{
     display:block;
     height: 4rem;
-    width: 100%;
-
-}
-
-/* input, select{
     margin: 10px 0 0 0;
     width: 100%;
-    min-height: 2em;
-} */
+    min-height: 4rem;
+    max-height: 10rem;
+    resize: vertical;
+}
+
