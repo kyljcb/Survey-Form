@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hotdog</title>
+        <link rel="stylesheet" href="fccstyles.css"/>
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        
+        <form id="surver-form">
+        <fieldset>
+            <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required /></label>
+            <label id="email-label">Email<input id="email" type="email" placeholder="Enter your Email" required /></label>
+            <label id="number-label">Age (optional)<input id="number" type="number" min="5" max="120" placeholder="Enter your age" required /></label>
+            <label id="role">Which option best describe your current role?<select id="dropdown"> 
+                <option value="">select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Full Time Learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select></label>
+            <label id="recommend">Would you recommend freeCodeCamp to a friend?</label>
+            <label id="definitely"> <input type="radio" name="decision"/>Definitely </label>
+            <label id="maybe"> <input type="radio" name="decision"/>Maybe </label>
+            <label id="not-sure"> <input type="radio" name="decision"/>Not sure</label>
+            <label id="favorite">What is your favorite feature of freeCodeCamp?<select> 
+                <option>select an option</option>
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source</option>
+            </select></label>
+            <label id="improve">What would you like to see improved? (Check all that apply)</label>
+                <label id="front-end"><input type="checkbox"/>Front-end Projects</label>
+                <label id="back-end"><input type="checkbox"/>Back-end Projects</label>
+                <label id="data-visualization"><input type="checkbox"/>Data Visualization</label>
+                <label id="challenges"><input type="checkbox"/>Challenges</label>
+                <label id="open-soure-community"><input type="checkbox"/>Open Source Community</label>
+                <label id="gitter-help-room"><input type="checkbox"/>Gitter help rooms</label>
+                <label id="videos"><input type="checkbox"/>Videos</label>
+                <label id="city-meetups"><input type="checkbox"/>City Meetups</label>
+                <label id="wiki"><input type="checkbox"/>Wiki</label>
+                <label id="forum"><input type="checkbox"/>Forum</label>
+                <label id="additional-courses"><input type="checkbox"/>Additional Courses</label>
+            <label id="comments">Any comments or suggestions? <textarea> </textarea></label>
+
+        </fieldset>
+        </form>
+        
+    </body>
+</html>
